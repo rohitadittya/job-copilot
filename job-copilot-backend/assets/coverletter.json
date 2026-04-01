@@ -1,0 +1,26 @@
+{
+    "applicant": {
+        "name": "Rohit Adittya Thumati Ravi Sankar",
+        "location": "New Paltz, NY",
+        "email": "rohitadittya@gmail.com",
+        "phone": "+1 518 328 1446",
+        "linkedin": "linkedin.com/in/rohit-adittya-thumati-b0166810a"
+    },
+    "recipient": {
+        "company_name": "{{COMPANY_NAME}}",
+        "address": "{{ADDRESS}}",
+        "hiring_manager": "Hiring Manager"
+    },
+    "application_details": {
+        "date": "{{DATE}}",
+        "position": "{{POSITION}}",
+        "subject": "Application for {{POSITION}}"
+    },
+    "body": {
+        "content": "I am writing to express my interest in the {{POSITION}} position at {{COMPANY_NAME}}. I bring over five years of experience building scalable, production-grade applications across healthcare, insurance, and aviation domains, with a strong foundation in full stack development, distributed systems, and applied AI.\n\nAt athenahealth, I worked on a large-scale medical coding platform supporting hospital claims processing. As part of this effort, we developed microservices-based workflows to automate CPT code generation directly from patient records. This significantly improved coding efficiency and reduced turnaround time by enabling the system to process structured clinical data and recommend accurate codes with minimal manual intervention. I contributed across the stack, building frontend applications and designing backend services using Node.js and Java Spring Boot, while ensuring system reliability through scalable API design and production support.\n\nPreviously, at Chubb and Cognizant, I built enterprise-grade applications across insurance and aviation domains using Angular, Spring Boot, and SQL-based systems. I contributed to performance optimization initiatives, reducing batch job execution time by 83% and significantly improving application responsiveness. These experiences strengthened my ability to design, develop, and maintain distributed systems while working closely with cross-functional teams in Agile environments.\n\nIn parallel, my graduate work at SUNY New Paltz focuses on developing an AI-powered Student Advisor application using Retrieval Augmented Generation (RAG). I implemented pipelines that process complex academic documents, generate embeddings, and retrieve relevant context to ensure accurate and grounded responses. This experience has further enhanced my ability to apply modern AI techniques to real-world problem solving.\n\nAcross my experience, I have worked with React, Angular, Node.js, Java Spring Boot, AWS, SQL/PostgreSQL, and modern AI tooling including embeddings and vector databases. I am motivated by opportunities that combine strong engineering fundamentals with real-world impact, and I value environments that emphasize ownership, collaboration, and continuous learning.\n\nI am excited about the opportunity to contribute to {{COMPANY_NAME}}’s mission and to build systems that support critical financial infrastructure.\n\nThank you for your time and consideration."
+    },
+    "signature": {
+        "closing": "Sincerely",
+        "name": "Rohit Adittya Thumati Ravi Sankar"
+    }
+}
