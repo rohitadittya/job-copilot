@@ -1,0 +1,120 @@
+{
+    "name": "Rohit Adittya Thumati Ravi Sankar",
+    "contact": {
+        "email": "rohitadittya@gmail.com",
+        "phone": "+1 518 328 1446",
+        "location": "New Paltz, NY",
+        "linkedin": "linkedin.com/in/rohit-adittya-thumati-b0166810a"
+    },
+    "summary": "Full Stack Engineer with 5+ years of experience building scalable, production-grade applications in healthcare and insurance domains. Proven track record of driving automation (up to 91%) and reducing turnaround time (94%) using React, Node.js, Java Spring Boot, AWS, and distributed systems. Currently pursuing an MS in Computer Science (GPA: 3.95/4) at SUNY New Paltz (Expected May 2026), with experience leading Agile teams and building AI-driven solutions using RAG and LLMs.",
+    "technical_skills": {
+        "frontend": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "TypeScript",
+            "Angular",
+            "React",
+            "RxJS",
+            "NgRx",
+            "Redux"
+        ],
+        "backend": [
+            "Java",
+            "Spring Boot",
+            "Node.js",
+            "Express.js",
+            "REST APIs",
+            "Microservices",
+            "Kafka",
+            "Hibernate",
+            "Data Structures and Algorithms"
+        ],
+        "ai_llm": [
+            "OpenAI API",
+            "Ollama",
+            "Retrieval Augmented Generation (RAG)",
+            "LangChain",
+            "Embeddings",
+            "Vector Databases (Weaviate)"
+        ],
+        "databases_cloud": [
+            "PostgreSQL",
+            "MongoDB",
+            "SQL",
+            "AWS",
+            "CI/CD",
+            "Git",
+            "Terraform",
+            "Docker",
+            "BPMN"
+        ]
+    },
+    "work_experience": [
+        {
+            "company": "State University of New York at New Paltz",
+            "location": "New Paltz, NY",
+            "role": "Teaching & Research Assistant",
+            "duration": "Aug 2025 – Present",
+            "responsibilities": [
+                "Engineered an AI-powered Student Advisor Application using RAG and LangChain, reducing course recommendation time by 75% and cutting manual advising errors by 80%.",
+                "Built automated prerequisite validation pipelines using vector embeddings and Weaviate to minimize hallucinations and ground responses in course documents.",
+                "Delivered an end-to-end conversational interface using React, Node.js, OpenAI API, and Ollama LLM."
+            ]
+        },
+        {
+            "company": "Athenahealth",
+            "location": "Chennai, India",
+            "role": "Senior Software Engineer, Full Stack Developer",
+            "duration": "Feb 2022 – Dec 2024",
+            "responsibilities": [
+                "Worked on a large-scale Medical Coding Application with React, Node.js, and Java Spring Boot.",
+                "Built microservices-based automation workflow engine (IAG-Engine), improving automation by 91% and turnaround time by 94%.",
+                "Implemented rule-driven auto-population workflows for CPT code generation.",
+                "Architected auditor feedback systems for quality improvements.",
+                "Led Agile ceremonies and GitHub Copilot adoption initiatives.",
+                "Improved CI/CD pipelines to enhance deployment reliability and speed."
+            ]
+        },
+        {
+            "company": "Chubb",
+            "location": "Hyderabad, India",
+            "role": "Software Engineer, Full Stack Developer",
+            "duration": "May 2021 – Feb 2022",
+            "responsibilities": [
+                "Developed a reusable insurance portal used across multiple product lines.",
+                "Maintained 100% sprint delivery during team transition and contributed to UI library.",
+                "Built a full stack insurance application for the Hong Kong market.",
+                "Mentored a junior intern."
+            ]
+        },
+        {
+            "company": "Cognizant",
+            "location": "Chennai, India",
+            "role": "Junior Software Engineer, Full Stack Developer",
+            "duration": "July 2019 – May 2021",
+            "responsibilities": [
+                "Built features for a flight management portal using Angular, Spring Boot, and PostgreSQL.",
+                "Reduced batch job execution time by 83%.",
+                "Improved page render time by 97% through API and performance optimizations.",
+                "Worked on a Dialogflow NLP chatbot POC to automate customer inquiries."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "State University of New York at New Paltz",
+            "location": "New Paltz, NY",
+            "degree": "Master of Science in Computer Science",
+            "gpa": "3.95/4",
+            "duration": "Jan 2025 – May 2026 (Expected)"
+        },
+        {
+            "institution": "Thiagarajar College of Engineering",
+            "location": "Tamil Nadu, India",
+            "degree": "Bachelor of Technology in Information Technology",
+            "gpa": "3.26/4",
+            "duration": "July 2015 – April 2019"
+        }
+    ]
+}
