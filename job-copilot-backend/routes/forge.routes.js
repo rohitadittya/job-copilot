@@ -1,6 +1,5 @@
 import { Router } from 'express';
-import { generateResume } from '../controllers/forge.controller.js';
-import { generateCoverLetter } from '../controllers/forge.controller.js';
+import { generateCoverLetter, generateResume } from '../controllers/forge.controller.js';
 
 const router = Router();
 

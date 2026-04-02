@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    body {
+      font-family: Arial;
+      padding: 40px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div>
+    <b>{{applicant.name}}</b><br />
+    {{applicant.email}} | {{applicant.phone}}<br />
+    {{applicant.location}}
+  </div>
+
+  <br />
+
+  <p>Date: {{application_details.date}}</p>
+
+  <p>
+    {{recipient.company_name}}<br />
+    {{recipient.address}}
+  </p>
+
+  <p>Dear {{recipient.hiring_manager}},</p>
+
+  <p>
+    {{#each (splitLines body.content)}}
+    {{this}}<br /><br />
+    {{/each}}
+  </p>
+
+  <p>Sincerely,</p>
+  <p>{{signature.name}}</p>
+
+</body>
+
+</html>

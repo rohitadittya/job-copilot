@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 30px;
+            font-size: 14px;
+        }
+
+        h2 {
+            border-bottom: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>{{name}}</h1>
+    <p>{{email}} | {{phone}} | {{location}}</p>
+
+    <h2>Summary</h2>
+    <p>{{summary}}</p>
+
+    <h2>Skills</h2>
+    <ul>
+        {{#each skills}}
+        <li>{{this}}</li>
+        {{/each}}
+    </ul>
+
+    <h2>Experience</h2>
+    {{#each experience}}
+    <div>
+        <b>{{company}}</b> — {{role}}
+        <ul>
+            {{#each bullets}}
+            <li>{{this}}</li>
+            {{/each}}
+        </ul>
+    </div>
+    {{/each}}
+
+</body>
+
+</html>

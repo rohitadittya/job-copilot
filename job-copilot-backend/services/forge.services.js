@@ -1,6 +1,8 @@
-import { askLLM } from '../core/llm.js';
-import { generateCoverLetterPrompt, generateResumePrompt } from '../core/prompts.js';
 import { safeParseJSON } from '../utils/jsonHelpers.js';
+import { generateResumePDF } from '../core/templateEngine/pdfGenerators/resumeGenerator.js';
+import { generateCoverLetterPDF } from '../core/templateEngine/pdfGenerators/coverletterGenerator.js';
+import { askLLM } from '../core/copilot/llm.js';
+import { generateCoverLetterPrompt, generateResumePrompt } from '../core/copilot/prompts.js';
 
 export const generateResume = async (jd) => {
     const resumeModule = await import('../assets/resume.json', {
@@ -9,7 +11,8 @@ export const generateResume = async (jd) => {
     const resume = resumeModule.default;
 
     const generatedResume = await askLLM(generateResumePrompt(jd, JSON.stringify(resume)));
-    return safeParseJSON(generatedResume);
+    const resumeData = safeParseJSON(generatedResume);
+    return await generateResumePDF(resumeData);
 };
 
 export const generateCoverLetter = async (jd) => {
@@ -19,5 +22,6 @@ export const generateCoverLetter = async (jd) => {
     const coverLetter = coverLetterModule.default;
 
     const generatedCoverLetter = await askLLM(generateCoverLetterPrompt(jd, JSON.stringify(coverLetter)));
-    return safeParseJSON(generatedCoverLetter);
+    const coverLetterData = safeParseJSON(generatedCoverLetter);
+    return await generateCoverLetterPDF(coverLetterData);
 };
