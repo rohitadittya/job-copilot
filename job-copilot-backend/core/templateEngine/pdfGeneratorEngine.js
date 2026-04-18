@@ -41,6 +41,10 @@ const generatePDF = async (htmlContent) => {
 
 const compileTemplate = async (templateName, data) => {
     const templatePath = path.join(__dirname, "templates", `${templateName}.hbs`);
+    if (!fs.existsSync(templatePath)) {
+        throw new CoreError("Template not found", 500);
+    }
+
     const template = fs.readFileSync(templatePath, "utf-8");
     const compiledTemplate = Handlebars.compile(template);
     return compiledTemplate(data);
@@ -48,6 +52,10 @@ const compileTemplate = async (templateName, data) => {
 
 const generatePDFByTemplate = async (templateName, data) => {
     const htmlContent = await compileTemplate(templateName, data);
+    if (!htmlContent) {
+        throw new CoreError("Failed to generate HTML content", 500);
+    }
+
     return await generatePDF(htmlContent);
 };
 

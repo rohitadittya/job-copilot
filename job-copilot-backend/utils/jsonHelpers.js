@@ -9,7 +9,7 @@ export const safeParseJSON = (text) => {
         const jsonEnd = cleaned.lastIndexOf("}");
 
         if (jsonStart === -1 || jsonEnd === -1) {
-            throw new Error("No JSON found");
+            throw new CoreError("No JSON found", 500);
         }
 
         return JSON.parse(cleaned.slice(jsonStart, jsonEnd + 1));
