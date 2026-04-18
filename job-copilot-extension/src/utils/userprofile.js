@@ -1,0 +1,27 @@
+export const getUserProfile = () => {
+    return {
+        firstName: "Rohit Adittya",
+        lastName: "Thumati Ravi Sankar",
+        fullName: "Rohit Adittya Thumati Ravi Sankar",
+        email: "jobcopilot@gmail.com",
+        phone: "1234567890",
+        address: "123 Main St",
+        city: "New York",
+        state: "NY",
+        zip: "10001",
+        country: "USA",
+        linkedin: "https://linkedin.com/in/johndoe",
+        github: "https://github.com/johndoe",
+        portfolio: "https://johndoe.com",
+        resume: "https://johndoe.com/resume",
+        coverLetter: "https://johndoe.com/coverletter",
+        workExperience: "https://johndoe.com/workexperience",
+        education: "https://johndoe.com/education",
+        skills: "https://johndoe.com/skills",
+        projects: "https://johndoe.com/projects",
+        certifications: "https://johndoe.com/certifications",
+        languages: "https://johndoe.com/languages",
+        references: "https://johndoe.com/references",
+        additionalInformation: "https://johndoe.com/additionalinformation",
+    };
+};
